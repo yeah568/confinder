@@ -1,0 +1,47 @@
+<div ng-controller="ConsCtrl">
+	<div class="alerts row">
+	<div class="container">
+			<alert ng-repeat="alert in alerts" ng-animate="'fade'" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
+		</div>
+	</div>
+	<google-map center="map.center" zoom="map.zoom" draggable="true">
+		<marker ng-repeat="con in cons" coords="{latitude: con.lat, longitude: con.lng}">
+		</markers>
+	</google-map>
+
+	<div class="row">
+		<div class="container">
+			<input type="text" class="form-control" placeholder="Search..." ng-model="search">
+			<input type="text" class="form-control" placeholder="Enter a place, address, or city" ng-model="userLocation">
+		</div>
+	</div>
+	<div class="row">
+		<div class="container">
+			<button class='btn btn-default' ng-click="geolocate()">get location</button>
+			<span ng-show="locationLoaded">Current location: {{ currentLat }}, {{ currentLng }}</span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="container">
+			Sort by: 
+			<button class='btn btn-info' ng-click="setSort('name')">Name</button>
+			<button class='btn btn-info' ng-click="setSort('location')">Location</button>
+			<button class='btn btn-info' ng-click="setSort('start')">Start Date</button>
+			<button class='btn btn-info' ng-click="setSort('end')">End Date</button>
+			<button class='btn btn-info' ng-click="setSort('distance')">Distance</button>
+
+		</div>
+	</div>
+
+
+	<div class="row well well-lg con" ng-repeat="con in cons | upcoming | filter:search | orderBy:sort">
+		<div class="col-xs-12"><h3><a href="{{ con.site }}" target="_blank">{{ con.name }}</a></h3></div>
+		<div class="col-xs-4"><i class="fa fa-calendar-o"></i> {{ con.start | date: 'MMMM d yyyy' }} - {{ con.end | date: 'MMMM d yyyy' }}</div>
+		<div class="col-xs-5"><i class="fa fa-map-marker"></i> <a href="http://maps.google.com/?q={{ con.location }}" target="_blank">{{ con.location }}</a></div>
+		<div class="col-xs-2">
+			<i class="fa fa-location-arrow"></i>
+			<span ng-show="locationLoaded"><a href="https://www.google.com/maps/dir/{{ currentLat }},{{ currentLng }}/{{ con.location }}" target="_blank">{{ con.distance }} km</a></span>
+			<span ng-hide="locationLoaded"><i class="fa fa-circle-o-notch fa-spin"></i></span>
+		</div>
+	</div>
+</div>
