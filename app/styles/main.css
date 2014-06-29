@@ -15,8 +15,6 @@ h3 {
 
 .con {
   margin-bottom: 8px;
-  /*background: #3498db;
-  */
   background: #b9b9b9;
   border: none;
   color: #333;
@@ -37,9 +35,18 @@ a {
 }
 
 .angular-google-map-container { 
-	height: 700px; 
+	height: 500px; 
+	margin-bottom: 10px;
 }
 
 .map-marker-label {
 	background-color: #333;
+}
+
+.sort {
+	float: right;
+}
+
+.thing {
+	margin-bottom: 10px;
 }

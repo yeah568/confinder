@@ -53,7 +53,7 @@ app.controller('ConsCtrl', function($scope, $http) {
 
 	$scope.geocode = function() {
 		var geocoder = new google.maps.Geocoder();
-		geocoder.geocode({'address': $scope.address.toString()}, function(results, status) {
+		geocoder.geocode({'address': $scope.address}, function(results, status) {
 			if (status === google.maps.GeocoderStatus.OK) {
 				$scope.$apply(function() {
 					$scope.currentLat = results[0].geometry.location.lat();
@@ -89,7 +89,7 @@ app.controller('ConsCtrl', function($scope, $http) {
 	$scope.alerts = [];
 	function addAlert(msg, type) {
 		type = typeof type !== 'undefined' ? type : 'danger';
-		$scope.$apply(function(){$scope.alerts.push({msg: msg + Date.now(), type: type});});
+		$scope.$apply(function(){$scope.alerts.push({msg: msg, type: type});});
 	}
 	$scope.closeAlert = function(index) {
 		$scope.alerts.splice(index, 1);

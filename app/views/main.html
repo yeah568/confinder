@@ -1,8 +1,6 @@
-<div ng-controller="ConsCtrl">
-	<div class="alerts row">
-		<div class="container">
+<div class="container">
+	<div class="alerts container">
 			<alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
-		</div>
 	</div>
 	<div class="container">
 		<google-map center="map.center" zoom="map.zoom" draggable="true">
@@ -14,40 +12,40 @@
 
 		</google-map>
 	</div>
-	<div class="container">
+	<div class="container thing">
 		<div class="row">
-			<div class="col-xs-6">
+			<div class="col-xs-12">
 				<form class="form-inline" role="form">
 					<div class="input-group">
 						<span class="input-group-btn">
-							<button class='btn btn-primary' ng-click="geolocate()"><i class="fa fa-crosshairs"></i> Geolocate</button>
+							<button class='btn btn-success' ng-click="geolocate()"><i class="fa fa-crosshairs"></i> Geolocate</button>
 						</span>
 						<input type="text" class="form-control" placeholder="Enter a place, address, or city" ng-model="address">
 				    	<span class="input-group-btn">
-				    		<button class="btn btn-primary" type="submit" ng-click="geocode()">Submit</button>
+				    		<button class="btn btn-success" type="submit" ng-click="geocode()">Submit</button>
 				    	</span>
 			    	</div>
 			    </form>
 			</div>
-			<div class="col-xs-6">
-				<input type="text" class="form-control" placeholder="Search" ng-model="search">
-			</div>
+			
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container thing">
 		<div class="row">
-			<div class="col-xs-8">
-				Sort by: 
-				<button class='btn btn-primary' ng-click="setSort('name')">Name</button>
-				<button class='btn btn-primary' ng-click="setSort('start')">Start Date</button>
-				<button class='btn btn-primary' ng-click="setSort('end')">End Date</button>
-				<button class='btn btn-primary' ng-click="setSort('location')">Location</button>
-				<button class='btn btn-primary' ng-click="setSort('distance')">Distance</button>
+			<div class="col-xs-6">
+				<input type="text" class="form-control" placeholder="Search" ng-model="search">
 			</div>
-		</div>
-		<div class="col-xs-4">
-			<span ng-show="locationLoaded">Current location: {{ currentLat }}, {{ currentLng }}</span>
+			<div class="col-xs-6">
+				<div class="sort">
+					Sort by: 
+					<button class='btn btn-primary' ng-click="setSort('name')">Name</button>
+					<button class='btn btn-primary' ng-click="setSort('start')">Start Date</button>
+					<button class='btn btn-primary' ng-click="setSort('end')">End Date</button>
+					<button class='btn btn-primary' ng-click="setSort('location')">Location</button>
+					<button class='btn btn-primary' ng-click="setSort('distance')">Distance</button>
+				</div>
+			</div>
 		</div>
 	</div>
 
