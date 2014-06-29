@@ -66,3 +66,7 @@ a {
 .modal-body {
 	color: #000;
 }
+
+.shrug {
+	white-space: nowrap;
+}
