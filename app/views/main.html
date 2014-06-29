@@ -18,12 +18,14 @@
 			<input type="text" class="form-control" placeholder="Search..." ng-model="search">
 		</div>
 		<div class="col-xs-6">
-			<div class="input-group">
-				<input type="text" class="form-control" placeholder="Enter a place, address, or city" ng-model="address">
-		    	<span class="input-group-btn">
-		    		<button class="btn btn-primary" type="button" ng-click="geocode()">Submit</button>
-		    	</span>
-		    </div>
+			<form class="form-inline" role="form">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Enter a place, address, or city" ng-model="address">
+			    	<span class="input-group-btn">
+			    		<button class="btn btn-primary" type="submit" ng-click="geocode()">Submit</button>
+			    	</span>
+		    	</div>
+		    </form>
 		</div>
 	</div>
 	<div class="row">
