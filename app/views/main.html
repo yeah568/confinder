@@ -1,4 +1,24 @@
 <div class="container">
+	<script>
+	var ModalCtrl = function($scope, $modal) {
+		$scope.open = function() {
+			var modalInstance = $modal.open({
+				templateUrl: 'views/modal.html',
+				controller: ModalInstanceCtrl,
+				size: 'lg'
+			});
+		};
+	};
+
+	var ModalInstanceCtrl = function($scope, $modalInstance) {
+		$scope.close = function() {
+			$modalInstance.close();
+		};
+	};
+	</script>
+	<div class="info" ng-controller="ModalCtrl">
+		<i class="fa fa-question-circle" ng-click="open()"></i>
+	</div>
 	<div class="alerts container">
 			<alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
 	</div>
@@ -9,7 +29,6 @@
 	    		</marker-label>
 			</marker>
 			<marker ng-if="locationLoaded" icon="'http://maps.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png'" coords="{latitude: currentLat, longitude: currentLng}"></marker>
-
 		</google-map>
 	</div>
 	<div class="container thing">
@@ -39,11 +58,13 @@
 			<div class="col-xs-6">
 				<div class="sort">
 					Sort by: 
-					<button class='btn btn-primary' ng-click="setSort('name')">Name</button>
-					<button class='btn btn-primary' ng-click="setSort('start')">Start Date</button>
-					<button class='btn btn-primary' ng-click="setSort('end')">End Date</button>
-					<button class='btn btn-primary' ng-click="setSort('location')">Location</button>
-					<button class='btn btn-primary' ng-click="setSort('distance')">Distance</button>
+					<div class="btn-group">
+						<button class='btn btn-primary' ng-click="setSort('name')">Name</button>
+						<button class='btn btn-primary' ng-click="setSort('start')">Start Date</button>
+						<button class='btn btn-primary' ng-click="setSort('end')">End Date</button>
+						<button class='btn btn-primary' ng-click="setSort('location')">Location</button>
+						<button class='btn btn-primary' ng-click="setSort('distance')">Distance</button>
+					</div>
 				</div>
 			</div>
 		</div>

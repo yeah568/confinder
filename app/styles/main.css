@@ -24,6 +24,14 @@ a {
 	color: #2980b9;
 }
 
+.info {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
 .alerts {
 	position: fixed;
 	top: 10px;
@@ -49,4 +57,12 @@ a {
 
 .thing {
 	margin-bottom: 10px;
+}
+
+.modal-header .modal-title {
+	color: #000;
+}
+
+.modal-body {
+	color: #000;
 }
