@@ -25,7 +25,6 @@ app.controller('ConsCtrl', function($scope, $http) {
 	$http.get('cons.json').
 		success(function(response) {
 			$scope.cons = response;
-			$scope.unfiltered = response;
 			$scope.cons.forEach(function (con) {
 				con.start = Date.parse(con.start);
 				con.end = Date.parse(con.end);
@@ -72,7 +71,7 @@ app.controller('ConsCtrl', function($scope, $http) {
 	$scope.alerts = [];
 	function addAlert(msg, type) {
 		type = typeof type !== 'undefined' ? type : 'danger';
-		$scope.alerts.push({msg: msg, type: type});
+		$scope.$apply(function(){$scope.alerts.push({msg: msg + Date.now(), type: type});});
 	}
 	$scope.closeAlert = function(index) {
 		$scope.alerts.splice(index, 1);

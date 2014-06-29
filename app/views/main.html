@@ -1,11 +1,13 @@
 <div ng-controller="ConsCtrl">
 	<div class="alerts row">
-	<div class="container">
-			<alert ng-repeat="alert in alerts" ng-animate="'fade'" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
+		<div class="container">
+			<alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
 		</div>
 	</div>
 	<google-map center="map.center" zoom="map.zoom" draggable="true">
-		<marker ng-repeat="con in cons" coords="{latitude: con.lat, longitude: con.lng}">
+		<marker ng-repeat="con in cons | upcoming"coords="{latitude: con.lat, longitude: con.lng}">
+			<marker-label content='con.name' anchor='22 0' class='map-marker-label'>
+    		</marker-label>
 		</markers>
 	</google-map>
 

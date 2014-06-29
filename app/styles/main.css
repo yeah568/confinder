@@ -39,3 +39,7 @@ a {
 .angular-google-map-container { 
 	height: 700px; 
 }
+
+.map-marker-label {
+	background-color: #333;
+}
