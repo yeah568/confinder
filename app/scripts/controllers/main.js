@@ -1,5 +1,5 @@
 'use strict';
-
+/* global google */
 function degToRad(deg) {
 	return deg * (Math.PI/180);
 }
@@ -40,16 +40,7 @@ app.controller('ConsCtrl', function($scope, $http) {
 					$scope.$apply(function() {
 						$scope.currentLat = position.coords.latitude;
 						$scope.currentLng = position.coords.longitude;
-						$scope.cons.forEach(function (con) {
-							con.distance = calcDist(con.lat, con.lng);
-						});
-						$scope.locationLoaded = true;
-						$scope.sort = 'distance';
-
-						$scope.map.center = {
-							latitude: $scope.currentLat,
-							longitude: $scope.currentLng
-						};
+						afterLocationGet();
 					});
 				},
 				function(error) {
@@ -60,6 +51,33 @@ app.controller('ConsCtrl', function($scope, $http) {
 		}
 	};
 
+	$scope.geocode = function() {
+		var geocoder = new google.maps.Geocoder();
+		geocoder.geocode({'address': $scope.address.toString()}, function(results, status) {
+			if (status === google.maps.GeocoderStatus.OK) {
+				$scope.$apply(function() {
+					$scope.currentLat = results[0].geometry.location.lat();
+					$scope.currentLng = results[0].geometry.location.lng();
+					afterLocationGet();
+				});
+			} else {
+				addAlert('Something went wrong with getting your location! Try again in a bit. Error: ' + status);
+			}
+		});
+	};
+
+	function afterLocationGet() {
+		$scope.cons.forEach(function (con) {
+			con.distance = calcDist(con.lat, con.lng);
+		});
+		$scope.locationLoaded = true;
+		$scope.sort = 'distance';
+
+		$scope.map.center = {
+			latitude: $scope.currentLat,
+			longitude: $scope.currentLng
+		};
+	}
 
 	$scope.sort ='name';
 
