@@ -1,0 +1,173 @@
+[
+	{
+		"name": "BronyCAN",
+		"start": "August 22, 2014",
+		"end": "August 24, 2014",
+		"location": "Executive Airport Plaza Hotel and Conference Centre",
+		"lat": "49.17042",
+		"lng": "-123.144969",
+		"site": "https://bronycan.ca/"
+	},
+	{
+		"name": "Everfree Northwest",
+		"start": "July 4, 2014",
+		"end": "July 6, 2014",
+		"location": "Hilton Seattle Airport and Conference Center",
+		"lat": "47.4446415",
+		"lng": "-122.2980743",
+		"site": "https://everfreenw.com/"
+	},
+	{
+		"name": "Midwest Brony Fest",
+		"start": "May 23, 2014",
+		"end": "May 25, 2014",
+		"location": "Kansas City Marriott Country Club Plaza",
+		"lat": "37.0625",
+		"lng": "-95.677068",
+		"site": "http://mwbfkc.net/"
+	},
+	{
+		"name": "Big Apple Ponycon",
+		"start": "July 4, 2014",
+		"end": "July 6, 2014",
+		"location": "The Landmark Loew’s Jersey Theater",
+		"lat": "40.732081",
+		"lng": "-74.06411",
+		"site": "https://www.bigappleponycon.com/"
+	},
+	{
+		"name": "Crystal Fair",
+		"start": "July 4, 2014",
+		"end": "July 6, 2014",
+		"location": "Finlandia Hall",
+		"lat": "60.170405",
+		"lng": "24.92833",
+		"site": "http://www.crystalfair.fi/"
+	},
+	{
+		"name": "MLP-MSP",
+		"start": "June 6, 2014",
+		"end": "June 8, 2014",
+		"location": "Ramada MSP Airport at the Mall",
+		"lat": "39.99772",
+		"lng": "-93.23884",
+		"site": "http://mlp-msp.com/"
+	},
+	{
+		"name": "TrotCon",
+		"start": "June 20, 2014",
+		"end": "June 22, 2014",
+		"location": "Sheraton Columbus at Capitol Square",
+		"lat": "39.960116",
+		"lng": " -82.997647",
+		"site": "http://trotcon.net/"
+	},
+	{
+		"name": "BronyExpo",
+		"start": "July 5, 2014",
+		"end": "July 6, 2014",
+		"location": "Fantasyland Hotel",
+		"lat": "53.5222",
+		"lng": "-113.627694",
+		"site": "http://www.bronyexpo.com/"
+	},
+	{
+		"name": "Fiesta Equestria",
+		"start": "July 11, 2014",
+		"end": "July 13, 2014",
+		"location": "Houston Marriott Westchase",
+		"lat": "29.734286",
+		"lng": "-95.550173",
+		"site": "http://www.fiestaequestria.com/"
+	},
+	{
+		"name": "BronyCon",
+		"start": "August 1, 2014",
+		"end": "August 3, 2014",
+		"location": "Baltimore Convention Center",
+		"lat": "39.286317",
+		"lng": "-76.615693",
+		"site": "http://bronycon.org/"
+	},
+	{
+		"name": "Czequestria",
+		"start": "August 29, 2014",
+		"end": "August 31, 2014",
+		"location": "KD Krakov",
+		"lat": "50.128681",
+		"lng": "14.419076",
+		"site": "https://www.czequestria.cz/"
+	},
+	{
+		"name": "GalaCon",
+		"start": "August 2, 2014",
+		"end": "August 3, 2014",
+		"location": "Forum am Schlosspark",
+		"lat": "48.8925335",
+		"lng": "9.1952685",
+		"site": "http://www.galacon.eu/"
+	},
+	{
+		"name": "Brony Fan Fair",
+		"start": "September 5, 2014",
+		"end": "September 7, 2014",
+		"location": "Holiday Inn Austin Midtown",
+		"lat": "30.323598",
+		"lng": "-97.710855",
+		"site": "http://bronyfanfair.com/"
+	},
+	{
+		"name": "Sydneigh",
+		"start": "September 27, 2014",
+		"end": "September 28, 2014",
+		"location": "Australian Technology Park",
+		"lat": "-33.895459",
+		"lng": "151.194915",
+		"site": "http://sydneigh.com.au/"
+	},
+	{
+		"name": "Lunafest",
+		"start": "October 25, 2014",
+		"end": "October 25, 2014",
+		"location": "Festplatz Nord",
+		"lat": "53.5500564",
+		"lng": "10.0222113",
+		"site": "http://lunafest.eu/"
+	},
+	{
+		"name": "Ponyville Ciderfest",
+		"start": "November 7, 2014",
+		"end": "November 9, 2014",
+		"location": "Hyatt Regency Milwaukee",
+		"lat": "43.040912",
+		"lng": "-87.915242",
+		"site": "http://www.ponyvilleciderfest.com/"
+	},
+	{
+		"name": "BronyScot",
+		"start": "October 11, 2014",
+		"end": "October 12, 2014",
+		"location": "Hilton Glasgow Grosvenor Hotel",
+		"lat": "55.869715",
+		"lng": "-4.280106",
+		"site": "http://bronyscot.org.uk/"
+	},
+	{
+		"name": "BUCK Convention / Summer Sun Celebration",
+		"start": "August 22, 2014",
+		"end": "August 24, 2014",
+		"location": "Manchester Central Convention Centre",
+		"lat": "53.476475",
+		"lng": "-2.246761",
+		"site": "http://buckcon.org/"
+	},
+	{
+		"name": "The Grand Brony Gala",
+		"start": "August 15, 2014",
+		"end": "August 17, 2014",
+		"location": "Embassy Suites Tampa - USF/Near Busch Gardens",
+		"lat": "28.055683",
+		"lng": "-82.417465",
+		"site": "http://grandbronygala.com/"
+	}
+]
