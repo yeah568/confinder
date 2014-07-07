@@ -169,5 +169,14 @@
 		"lat": "28.055683",
 		"lng": "-82.417465",
 		"site": "http://grandbronygala.com/"
+	},
+	{
+		"name": "JapanPonycon",
+		"start": "November 1, 2014",
+		"end": "November 1, 2014",
+		"location": "川崎市産業振興会館",
+		"lat": "35.535333",
+		"lng": "139.700959",
+		"site": "http://ponycon.jp"
 	}
 ]
