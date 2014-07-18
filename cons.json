@@ -178,5 +178,14 @@
 		"lat": "35.535333",
 		"lng": "139.700959",
 		"site": "http://ponycon.jp"
+	},
+	{
+		"name": "BABSCon",
+		"start": "April 3, 2015",
+		"end": "April 5, 2015",
+		"location": "Hyatt Regency San Francisco Airport",
+		"lat": "37.593917",
+		"lng": "-122.365399",
+		"site": "http://babscon.com/"
 	}
 ]
