@@ -1,14 +1,5 @@
 [
 	{
-		"name": "BronyCAN",
-		"start": "August 22, 2014",
-		"end": "August 24, 2014",
-		"location": "Executive Airport Plaza Hotel and Conference Centre",
-		"lat": "49.17042",
-		"lng": "-123.144969",
-		"site": "https://bronycan.ca/"
-	},
-	{
 		"name": "Everfree Northwest",
 		"start": "May 29, 2015",
 		"end": "May 31, 2015",
@@ -18,168 +9,6 @@
 		"site": "https://everfreenw.com/"
 	},
 	{
-		"name": "Midwest Brony Fest",
-		"start": "May 23, 2014",
-		"end": "May 25, 2014",
-		"location": "Kansas City Marriott Country Club Plaza",
-		"lat": "37.0625",
-		"lng": "-95.677068",
-		"site": "http://mwbfkc.net/"
-	},
-	{
-		"name": "Big Apple Ponycon",
-		"start": "July 4, 2014",
-		"end": "July 6, 2014",
-		"location": "The Landmark Loew’s Jersey Theater",
-		"lat": "40.732081",
-		"lng": "-74.06411",
-		"site": "https://www.bigappleponycon.com/"
-	},
-	{
-		"name": "Crystal Fair",
-		"start": "July 4, 2014",
-		"end": "July 6, 2014",
-		"location": "Finlandia Hall",
-		"lat": "60.170405",
-		"lng": "24.92833",
-		"site": "http://www.crystalfair.fi/"
-	},
-	{
-		"name": "MLP-MSP",
-		"start": "June 6, 2014",
-		"end": "June 8, 2014",
-		"location": "Ramada MSP Airport at the Mall",
-		"lat": "39.99772",
-		"lng": "-93.23884",
-		"site": "http://mlp-msp.com/"
-	},
-	{
-		"name": "TrotCon",
-		"start": "June 20, 2014",
-		"end": "June 22, 2014",
-		"location": "Sheraton Columbus at Capitol Square",
-		"lat": "39.960116",
-		"lng": " -82.997647",
-		"site": "http://trotcon.net/"
-	},
-	{
-		"name": "BronyExpo",
-		"start": "July 5, 2014",
-		"end": "July 6, 2014",
-		"location": "Fantasyland Hotel",
-		"lat": "53.5222",
-		"lng": "-113.627694",
-		"site": "http://www.bronyexpo.com/"
-	},
-	{
-		"name": "Fiesta Equestria",
-		"start": "July 11, 2014",
-		"end": "July 13, 2014",
-		"location": "Houston Marriott Westchase",
-		"lat": "29.734286",
-		"lng": "-95.550173",
-		"site": "http://www.fiestaequestria.com/"
-	},
-	{
-		"name": "BronyCon",
-		"start": "August 1, 2014",
-		"end": "August 3, 2014",
-		"location": "Baltimore Convention Center",
-		"lat": "39.286317",
-		"lng": "-76.615693",
-		"site": "http://bronycon.org/"
-	},
-	{
-		"name": "Czequestria",
-		"start": "August 29, 2014",
-		"end": "August 31, 2014",
-		"location": "KD Krakov",
-		"lat": "50.128681",
-		"lng": "14.419076",
-		"site": "https://www.czequestria.cz/"
-	},
-	{
-		"name": "GalaCon",
-		"start": "August 2, 2014",
-		"end": "August 3, 2014",
-		"location": "Forum am Schlosspark",
-		"lat": "48.8925335",
-		"lng": "9.1952685",
-		"site": "http://www.galacon.eu/"
-	},
-	{
-		"name": "Brony Fan Fair",
-		"start": "September 5, 2014",
-		"end": "September 7, 2014",
-		"location": "Holiday Inn Austin Midtown",
-		"lat": "30.323598",
-		"lng": "-97.710855",
-		"site": "http://bronyfanfair.com/"
-	},
-	{
-		"name": "Sydneigh",
-		"start": "September 27, 2014",
-		"end": "September 28, 2014",
-		"location": "Australian Technology Park",
-		"lat": "-33.895459",
-		"lng": "151.194915",
-		"site": "http://sydneigh.com.au/"
-	},
-	{
-		"name": "Lunafest",
-		"start": "October 25, 2014",
-		"end": "October 25, 2014",
-		"location": "Festplatz Nord",
-		"lat": "53.5500564",
-		"lng": "10.0222113",
-		"site": "http://lunafest.eu/"
-	},
-	{
-		"name": "Ponyville Ciderfest",
-		"start": "November 7, 2014",
-		"end": "November 9, 2014",
-		"location": "Hyatt Regency Milwaukee",
-		"lat": "43.040912",
-		"lng": "-87.915242",
-		"site": "http://www.ponyvilleciderfest.com/"
-	},
-	{
-		"name": "BronyScot",
-		"start": "October 11, 2014",
-		"end": "October 12, 2014",
-		"location": "Hilton Glasgow Grosvenor Hotel",
-		"lat": "55.869715",
-		"lng": "-4.280106",
-		"site": "http://bronyscot.org.uk/"
-	},
-	{
-		"name": "BUCK Convention / Summer Sun Celebration",
-		"start": "August 22, 2014",
-		"end": "August 24, 2014",
-		"location": "Manchester Central Convention Centre",
-		"lat": "53.476475",
-		"lng": "-2.246761",
-		"site": "http://buckcon.org/"
-	},
-	{
-		"name": "The Grand Brony Gala",
-		"start": "August 15, 2014",
-		"end": "August 17, 2014",
-		"location": "Embassy Suites Tampa - USF/Near Busch Gardens",
-		"lat": "28.055683",
-		"lng": "-82.417465",
-		"site": "http://grandbronygala.com/"
-	},
-	{
-		"name": "JapanPonycon",
-		"start": "November 1, 2014",
-		"end": "November 1, 2014",
-		"location": "川崎市産業振興会館",
-		"lat": "35.535333",
-		"lng": "139.700959",
-		"site": "http://ponycon.jp"
-	},
-	{
 		"name": "BABSCon",
 		"start": "April 3, 2015",
 		"end": "April 5, 2015",
@@ -187,5 +16,221 @@
 		"lat": "37.593917",
 		"lng": "-122.365399",
 		"site": "http://babscon.com/"
+	},
+	{
+	    "name": "The Friendship Express",
+	    "start": "March 21, 2015",
+	    "end": "March 22, 2015",
+	    "location": "SSTwo Mall",
+	    "lat": "3.120933",
+	    "lng": "101.626872",
+	    "site": "http://www.thefriendshipexpress.org/"
+	},
+	{
+	    "name": "Brony Fair",
+	    "start": "April 11, 2015",
+	    "end": "April 12, 2015",
+	    "location": "Fontane-Haus",
+	    "lat": "52.59783",
+	    "lng": "13.352417",
+	    "site": "http://brony-fair.de/"
+	},
+	{
+	    "name": "JapanPonycon Spring",
+	    "start": "May 4, 2015",
+	    "end": "May 4, 2015",
+	    "location": "Hokutopia",
+	    "lat": "35.755021",
+	    "lng": "139.736519",
+	    "site": "http://ponycon.jp/"
+	},
+	{
+	    "name": "Midwest Brony Fest",
+	    "start": "May 22, 2015",
+	    "end": "May 24, 2015",
+	    "location": "Overland Park Convention Center",
+	    "lat": "38.927963",
+	    "lng": "-94.655723",
+	    "site": "http://www.mwbfkc.net/"
+	},
+	{
+	    "name": "MLP-MSP",
+	    "start": "June 12, 2015",
+	    "end": "June 14, 2015",
+	    "location": "Ramada Bloomington Minneapolis Airport/Mall Area",
+	    "lat": "44.860801",
+	    "lng": "-93.239559",
+	    "site": "http://mlp-msp.com/"
+	},
+	{
+	    "name": "Fiesta Equestria",
+	    "start": "June 26, 2015",
+	    "end": "June 28, 2015",
+	    "location": "Marriott Westchase Hotel",
+	    "lat": "29.734386",
+	    "lng": "-95.550139",
+	    "site": "http://www.fiestaequestria.com/"
+	},
+	{
+	    "name": "My Little Pony Fair",
+	    "start": "June 27, 2015",
+	    "end": "June 28, 2015",
+	    "location": "Hyatt Regency Schaumburg, Chicago",
+	    "lat": "42.052205",
+	    "lng": "-88.0335",
+	    "site": "http://www.mylittleponycon.com/"
+	},
+	{
+	    "name": "The Grand Brony Gala",
+	    "start": "July 10, 2015",
+	    "end": "July 12, 2015",
+	    "location": "Embassy Suites Tampa - USF/Near Busch Gardens",
+	    "lat": "28.055672",
+	    "lng": "-82.417421",
+	    "site": "http://grandgallopingbronygalacon.com/"
+	},
+	{
+	    "name": "TrotCon",
+	    "start": "July 17, 2015",
+	    "end": "July 19, 2015",
+	    "location": "Crowne Plaza Columbus North - Worthington",
+	    "lat": "40.09939",
+	    "lng": "-82.986511",
+	    "site": "http://trotcon.net/"
+	},
+	{
+	    "name": "PonySouth",
+	    "start": "July 18, 2015",
+	    "end": "July 19, 2015",
+	    "location": "Le Sing Sing",
+	    "lat": "43.612012",
+	    "lng": "1.392352",
+	    "site": "http://ponysouth.fr/"
+	},
+	{
+	    "name": "Great British Brony Convention",
+	    "start": "July 24, 2015",
+	    "end": "July 26, 2015",
+	    "location": "Manchester Convention Centre",
+	    "lat": "53.474144",
+	    "lng": "-2.234667",
+	    "site": "http://gb-bronycon.co.uk/"
+	},
+	{
+	    "name": "GalaCon",
+	    "start": "August 1, 2015",
+	    "end": "August 2, 2015",
+	    "location": "Forum am Schlosspark",
+	    "lat": "48.892627",
+	    "lng": "9.195412",
+	    "site": "http://www.galacon.eu/"
+	},
+	{
+	    "name": "BronyCon",
+	    "start": "August 7, 2015",
+	    "end": "August 9, 2015",
+	    "location": "The Baltimore Convention Center",
+	    "lat": "39.28503",
+	    "lng": "-76.616517",
+	    "site": "http://www.bronycon.org/"
+	},
+	{
+	    "name": "BronyCAN",
+	    "start": "August 21, 2015",
+	    "end": "August 22, 2015",
+	    "location": "Executive Airport Plaza",
+	    "lat": "49.170445",
+	    "lng": "-123.145025",
+	    "site": "https://bronycan.ca"
+	},
+	{
+	    "name": "Czequestria",
+	    "start": "August 22, 2015",
+	    "end": "August 23, 2015",
+	    "location": "Kulturní Dům Krakov",
+	    "lat": "50.128681",
+	    "lng": "14.419076",
+	    "site": "http://www.czequestria.cz/"
+	},
+	{
+	    "name": "My Little Convention",
+	    "start": "August 29, 2015",
+	    "end": "August 30, 2015",
+	    "location": "Southport Theatre",
+	    "lat": "53.652013",
+	    "lng": "-3.006212",
+	    "site": "https://www.mylittlecon.co.uk/"
+	},
+	{
+	    "name": "Equestria LA",
+	    "start": "September 4, 2015",
+	    "end": "September 6, 2015",
+	    "location": "Hilton Anaheim",
+	    "lat": "33.800559",
+	    "lng": "-117.918262",
+	    "site": "https://equestriala.com/"
+	},
+	{
+	    "name": "St. Louis Crystal Fair",
+	    "start": "September 25, 2015",
+	    "end": "September 27, 2015",
+	    "location": "Westport Convention Center",
+	    "lat": "38.700674",
+	    "lng": "-90.446491",
+	    "site": "http://crystalfairstl.com/"
+	},
+	{
+	    "name": "UK PonyCon",
+	    "start": "October 10, 2015",
+	    "end": "October 11, 2015",
+	    "location": "Mercure Leicester The Grand Hotel",
+	    "lat": "52.633132",
+	    "lng": "-1.1298",
+	    "site": "http://www.ukponycon.co.uk/"
+	},
+	{
+	    "name": "Super Speedy Cider Con",
+	    "start": "October 16, 2015",
+	    "end": "October 18, 2015",
+	    "location": "Hilton Knoxville",
+	    "lat": "35.962562",
+	    "lng": "-83.919968",
+	    "site": "http://superspeedycidercon.com/"
+	},
+	{
+	    "name": "Nightmare Nights",
+	    "start": "October 23, 2015",
+	    "end": "October 25, 2015",
+	    "location": "Crowne Plaza Dallas Near Galleria-Addison",
+	    "lat": "32.9451",
+	    "lng": "-96.840188",
+	    "site": "http://www.nightmarenights.net/"
+	},
+	{
+	    "name": "BronyDays",
+	    "start": "October 31, 2015",
+	    "end": "November 1, 2015",
+	    "location": "Salle de l'Odyssée",
+	    "lat": "47.261348",
+	    "lng": "-1.622747",
+	    "site": "http://www.bronydays.org/"
+	},
+	{
+	    "name": "Ponyville Ciderfest",
+	    "start": "November 20, 2015",
+	    "end": "November 22, 2015",
+	    "location": "Hyatt Regency Milwaukee",
+	    "lat": "43.040912",
+	    "lng": "-87.915242",
+	    "site": "http://www.ponyvilleciderfest.com/"
+	},
+	{
+	    "name": "Ponycon NYC",
+	    "start": "February 13, 2016",
+	    "end": "February 15, 2016",
+	    "location": "St. Francis College",
+	    "lat": "40.693317",
+	    "lng": "-73.992277",
+	    "site": "http://www.ponycon2015.com/"
 	}
 ]
