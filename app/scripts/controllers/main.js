@@ -21,7 +21,7 @@ app.controller('ConsCtrl', function($scope, $http) {
 
 
 	// Should probably be its own service
-	$scope.cons = {};
+	$scope.cons = [];
 	$http.get('cons.json').
 		success(function(response) {
 			$scope.cons = response;
